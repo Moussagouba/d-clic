@@ -5,6 +5,7 @@ body {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 .subnav {
   background-color: #e52c34;
@@ -23,11 +24,7 @@ body {
   color: white;
   font-size: 1.2rem;
 }
-hr {
-  width: 150px;
-  height: 20px;
-  background-color: #e52c34;
-}
+
 .doigt {
   width: 80px;
   height: 80px;
@@ -37,6 +34,19 @@ hr {
 .blue {
   height: 20px;
   margin-top: 20px;
+}
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
 .gradient-custom {
   background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
